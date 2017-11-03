@@ -2,15 +2,15 @@ After installing Sahi pro in the location "\auto\sahi_pro" do the following:
 
 Copy the folder "salesforce" in the location "\auto\sahi_pro\htdocs\spr"
 
-Copy the file "inject_top.txt" to the location "\auto\sahi_pro\config"
-
 Copy the file "flex.json" to the location "\auto\sahi_pro\config\accessor_metadata"
 
 Copy the file "donot_download_urls.txt" to the location "\auto\sahi_pro\userdata\config"
 
-For FSA Windows:
-- Please add the following function in <SahiPro>/htdocs/spr/lib.js file.
+
+** FOR FSA WINDOWS ONLY:
 ========================================================
+- Please add the following function in <SahiPro>/htdocs/spr/lib.js file.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
 Sahi.prototype.getSessionIds = function(title){
 	var session = Packages.net.sf.sahi.session.Session;
@@ -32,10 +32,10 @@ Sahi.prototype.getSessionIds = function(title){
     return sIds;
 };
 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 ========================================================
-
-- Added the following content on TOP in <ServiceMax>/js/index.html
-========================================================
+- Add the following content on TOP under <Head> in <ServiceMax>/js/index.html
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
 <!--SAHI_INJECT_START-->
 <script src="http://sahi.example.com/_s_/sprc/concat.js,assert.js,listen.js,async.js,actions.js,touch.js,sfl.js,language_pack.js" id='_sahi_concat'></script>
@@ -44,4 +44,22 @@ Sahi.prototype.getSessionIds = function(title){
 <!--selenium_js_placeholder-->
 <!--SAHI_INJECT_END-->
 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+========================================================
+- Please apply the below changes "<Service Max>\Laptop Mobile.exe.config" file:
+- Insert in the <system.net> tag in Laptop Mobile.exe.config file.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+<defaultProxy>
+<proxy
+usesystemdefault="true"
+proxyaddress="http://127.0.0.1:9999"
+bypassonlocal="true"
+/>
+<bypasslist>
+<add address=".*salesforce.com" />
+</bypasslist>
+</defaultProxy>
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 ========================================================
