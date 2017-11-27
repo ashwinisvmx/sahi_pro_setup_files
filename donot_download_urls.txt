@@ -1,2 +1,3 @@
 .*client_model_v5.pb
 .*module[.]json.*
+.*FlashPlayer[.]crx3.*
