@@ -4,6 +4,7 @@ Copy the file "flex.json" to the location "\auto\sahi_pro\config\accessor_metada
 
 Copy the file "donot_download_urls.txt" to the location "\auto\sahi_pro\userdata\config"
 
+Copy the file "user_extensions.js" to the location "\auto\sahi_pro\userdata\config"
 
 ** FOR FSA WINDOWS ONLY:
 ========================================================
