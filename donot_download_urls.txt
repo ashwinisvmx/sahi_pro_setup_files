@@ -1,3 +1,5 @@
-.*model.*[.]pb
+.*client_model_v5.pb
+
 .*module[.]json.*
+
 .*[.]crx3.*
