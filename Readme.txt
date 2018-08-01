@@ -6,6 +6,8 @@ Copy the file "donot_download_urls.txt" to the location "\auto\sahi_pro\userdata
 
 Copy the file "user_extensions.js" to the location "\auto\sahi_pro\userdata\config"
 
+Copy the file "custom_html.json" to the location "\auto\sahi_pro\userdata\config\accessor_metadata"
+
 Copy the file "sfl451" to the location "\auto\sahi_pro\htdocs\spr\"
 
 ** FOR FSA WINDOWS ONLY:
