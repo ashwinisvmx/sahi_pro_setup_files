@@ -1,0 +1,8 @@
+[
+// Add your custom accessor metadata here. Eg.
+// {"tag": "DIV", "type": null, "event":"click", "name": "_div", "attributes": ["encaps_/PAPER/", "sahiText", "id", "className", "index"], "action": "_click", "value": "sahiText"}, 
+
+{"tag": "svg", "type": null, "event":"click", "name": "_svg_icon", "attributes": ["sahiText", "id", "class", "index"], "action": "_click", "value": "sahiText", "since": ["NA", "5.0", "7.0.1"]},
+
+]
+
