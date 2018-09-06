@@ -1,5 +1,7 @@
 After installing Sahi pro in the location "\auto\sahi_pro" do the following:
 
+Copy the file "testrunner.sh" & "testrunner.bat" to the location "auto\sahi_pro\userdata\bin"
+
 Copy the file "flex.json" to the location "\auto\sahi_pro\config\accessor_metadata"
 
 Copy the file "donot_download_urls.txt" to the location "\auto\sahi_pro\userdata\config"
