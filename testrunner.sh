@@ -21,17 +21,14 @@ echo "$0 demo/framework/scenario_new.s.csv http://sahitest.com/demo/training/ fi
 echo "$0 script_name.sah \" \" \"none;java\""
 echo "--"
 else
-SET LOGS_INFO=html:/auto/offlineSahi/logs
-SET THREADS=1
-SET SINGLE_SESSION=false
 export SAHI_HOME=../..
 export USERDATA_DIR=../
 export SCRIPTS_PATH=scripts
 export BROWSERDEVICEPARAMS=$3
 export START_URL=$2
-export THREADS=5
+export THREADS=1
 export SINGLE_SESSION=false
-export LOGS_INFO=html
+export LOGS_INFO=html:/auto/offlineSahi/logs
 export SEND_EMAIL_REPORT=false
 export EMAIL_TRIGGER=success,failure
 export EMAIL_PROPERTIES=../config/email.properties
