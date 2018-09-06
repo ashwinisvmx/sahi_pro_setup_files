@@ -21,7 +21,7 @@ echo "$0 demo/framework/scenario_new.s.csv http://sahitest.com/demo/training/ fi
 echo "$0 script_name.sah \" \" \"none;java\""
 echo "--"
 else
-SET LOGS_INFO=html:/auto/Jenkins/workspace/FSA_AUTOMATION/sahi/logs
+SET LOGS_INFO=html:/auto/offlineSahi/logs
 SET THREADS=1
 SET SINGLE_SESSION=false
 export SAHI_HOME=../..
