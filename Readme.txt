@@ -1,14 +1,25 @@
 After installing Sahi pro in the location "\auto\sahi_pro" do the following:
 
-Copy the file "testrunner.sh" & "testrunner.bat" to the location "auto\sahi_pro\userdata\bin"
 
-Copy the file "flex.json" to the location "\auto\sahi_pro\config\accessor_metadata"
+Rename the files "browser_types_WIN.xml" & "browser_types_MAC.xml" based on WIN or MAC to "browser_types.xml"
 
-Copy the file "donot_download_urls.txt" and "userdata.properties" and "browser_types.xml" and "user_extensions.js" to the location "\auto\sahi_pro\userdata\config"
+Copy the file "browser_types.xml"  to the location "\auto\sahi_pro\userdata\config"
+
+Copy the file "donot_download_urls.txt" to the location "\auto\sahi_pro\userdata\config"
+
+Copy the file "userdata.properties" to the location "\auto\sahi_pro\userdata\config"
+
+Copy the file "user_extensions.js" to the location "\auto\sahi_pro\userdata\config"
 
 Copy the file "custom_html.json" to the location "\auto\sahi_pro\userdata\config\accessor_metadata"
 
 Copy the file "sfl451" to the location "\auto\sahi_pro\htdocs\spr\"
+
+Copy the file "flex.json" to the location "\auto\sahi_pro\config\accessor_metadata"
+
+Copy the file "testrunner.sh" & "testrunner.bat" to the location "auto\sahi_pro\userdata\bin"
+
+
 
 ** FOR FSA WINDOWS ONLY:
 ========================================================
