@@ -80,4 +80,18 @@
 <replace><![CDATA[._file]]></replace>
 </rule>
 
+<rule>
+    
+    <name>fileUpload1</name>
+    
+    <urlPattern>.*</urlPattern>
+    
+    <isRegExp>false</isRegExp>
+    
+    <find><![CDATA[fileInputEl.dom.files]]></find>
+    
+    <replace><![CDATA[fileInputEl.dom._file || fileInputEl.dom.files]]></replace>
+    
+</rule>
+
 </substutionRules>
