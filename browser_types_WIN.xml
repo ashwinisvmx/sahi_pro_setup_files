@@ -65,7 +65,7 @@
 		<displayName>Chrome</displayName>
 		<icon>chrome.png</icon>
 		<path>$ProgramFiles (x86)\Google\Chrome\Application\chrome.exe</path>  
-		<options>--no-default-browser-check --user-data-dir=$userDir\browser\chrome\profiles\sahi$threadNo --proxy-server=127.0.0.1:$port --disable-popup-blocking --always-authorize-plugins --allow-outdated-plugins --enable-npapi</options>  
+		<options>--no-default-browser-check --user-data-dir=$userDir\browser\chrome\profiles\sahi$threadNo --proxy-server=127.0.0.1:$port --disable-popup-blocking --always-authorize-plugins --allow-outdated-plugins --enable-npapi --ignore-certificate-errors</options>  
 		<processName>chrome.exe</processName> 
 		<capacity>5</capacity>  
 	</browserType>	
