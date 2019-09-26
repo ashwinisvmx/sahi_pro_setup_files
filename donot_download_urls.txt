@@ -3,4 +3,9 @@
 .*[.]crx3.*
 .*[.]woff.*
 .*[.]ttf.*
-f.txt
+.*f[.]txt.*
+.*safebrowsing.googleapis.com.*
+.*client_model_v5.*
+.*clientservices.googleapis.com.*
+.*v1.add*
+
