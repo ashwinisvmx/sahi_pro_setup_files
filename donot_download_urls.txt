@@ -8,4 +8,5 @@
 .*client_model_v5.*
 .*clientservices.googleapis.com.*
 .*v1.add*
+.*[.]map
 
