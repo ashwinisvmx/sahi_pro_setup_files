@@ -21,6 +21,7 @@ Copy the file "flex.json" to the location "\auto\sahi_pro\config\accessor_metada
 
 Copy the file "testrunner.sh" & "testrunner.bat" to the location "auto\sahi_pro\userdata\bin"
 
+Copy the file "executionOrder_sequential.jar" & "reqcreds_patch20190109-1.jar" to the location "auto\sahi_pro\userdata\extlib"
 
 
 ** FOR FSA WINDOWS ONLY:
