@@ -9,8 +9,6 @@ Copy the file "donot_download_urls.txt" to the location "\auto\sahi_pro\userdata
 
 Copy the file "userdata.properties" to the location "\auto\sahi_pro\userdata\config"
 
-Copy the file "user_extensions.js" to the location "\auto\sahi_pro\userdata\config"
-
 Copy the file "substitutions.xml" o the location "\auto\sahi_pro\userdata\config"
 
 Copy the file "custom_html.json" to the location "\auto\sahi_pro\userdata\config\accessor_metadata"
@@ -21,7 +19,6 @@ Copy the file "flex.json" to the location "\auto\sahi_pro\config\accessor_metada
 
 Copy the file "testrunner.sh" & "testrunner.bat" to the location "auto\sahi_pro\userdata\bin"
 
-Copy the file "executionOrder_sequential.jar" & "reqcreds_patch20190109-1.jar" to the location "auto\sahi_pro\userdata\extlib"
 
 
 ** FOR FSA WINDOWS ONLY:
